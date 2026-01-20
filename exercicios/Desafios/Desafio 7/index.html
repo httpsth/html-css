@@ -1,0 +1,23 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Imagem flexível</title>
+        <style>
+            body{
+                background-color: rgb(183, 183, 255);
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Imagem Flexível</h1>
+        <p>Você está vendo a imagem completa? Experimente aumentar o tamanho da sua janela para aproveitar a melhor experiência.</p>
+        <picture>
+            <source media="(min-width: 1000px)" srcset="imagens/paisagem-g.png">
+            <source media="(min-width: 600px)" srcset="imagens/paisagem-m.png">
+            <img src="imagens/paisagem-p.png" alt="Primeira foto">
+        </picture>
+    </body>
+    </html>
