@@ -1,1 +1,85 @@
 @charset "UTF-8";
+
+body {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-family: "Passion One", sans-serif;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    font-size: clamp(2.5rem, 6vw, 5.5rem);
+    margin-bottom: 1px;
+}
+
+header p{
+    margin-top: 0;
+}
+
+header a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.autor {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+section{
+    padding: 30px;
+}
+
+section p{
+    line-height: 1.8;
+}
+
+.fundo > p{
+    color: rgb(255, 255, 255);
+    background-color: rgba(105, 105, 105, 0.562);
+    max-width: 400px;
+    width: 90%;
+}
+
+.fundo#f1 {
+    background-image: url('../imagens/background001.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 200px;
+}
+
+.fundo#f2 {
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 200px;
+}
+
+footer{
+    color: white;
+    background-color: rgb(31, 27, 27);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;    
+    padding: 1px 0px 1px 0px;
+}
+
+footer a{
+    color: white;
+}
